@@ -1,0 +1,328 @@
+country_code,port_name,average_wind_speed_m_s
+BE,Antwerpen,5.2
+BE,Gent,5.0
+BE,Oostende,6.1
+BE,Zeebrugge,6.3
+BU,Burgas,4.8
+BU,Varna,5.1
+DK,Aalborg,5.5
+DK,Aarhus,5.7
+DK,Branden,5.4
+DK,Ebeltoft,5.6
+DK,Esbjerg,6.0
+DK,Fredericia,5.3
+DK,Frederikshavn,6.2
+DK,Fur,5.1
+DK,Gedser,5.0
+DK,Helsingør,5.4
+DK,Hirtshals,6.1
+DK,Kalundborg,5.2
+DK,København,5.3
+DK,Køge,5.1
+DK,Nordby (Fanø),5.0
+DK,Odense,5.2
+DK,Rødby,5.1
+DK,Rønne,5.0
+DK,Sjællands Odde Ferry Port,5.3
+DK,Spodsbjerg,5.1
+DK,Tårs(Nakskov),5.0
+DK,Vejle,5.2
+DE,Bensersiel,5.4
+DE,Brake,5.6
+DE,Bremen,5.7
+DE,Bremerhaven,6.0
+DE,Brunsbüettel,5.5
+DE,Cuxhaven,6.1
+DE,Emden,6.0
+DE,Hamburg,5.8
+DE,Helgoland,6.3
+DE,Kiel,6.1
+DE,Langeoog,6.2
+DE,Lübeck,5.7
+DE,Norddeich,6.0
+DE,Nordenham,5.8
+DE,Norderney,6.1
+DE,Puttgarden,5.9
+DE,Rostock,6.0
+DE,Sassnitz,6.1
+DE,Stade-Bützfleth/Brunshausen,5.7
+DE,Wilhelmshaven,6.2
+DE,Wismar,5.8
+EST,Heltermaa,5.3
+EST,Kuivastu,5.2
+EST,Pärnu,5.4
+EST,Paldiski South Harbor,5.3
+EST,Rohuküla,5.2
+EST,Sillamäe,5.4
+EST,Tallinn,5.5
+EST,Virtsu,5.3
+IRL,Cork,5.1
+IRL,Dublin,5.2
+IRL,Limerick / Shannon,5.0
+IRL,Rosslare,5.1
+IRL,Waterford,5.0
+GR,Athens,4.8
+GR,Chalkida,4.7
+GR,Chania,4.9
+GR,Chios,4.8
+GR,Elefsina,4.7
+GR,Igoumenitsa,4.6
+GR,Iraklion,4.9
+GR,Kalamata,4.7
+GR,Katakolo,4.6
+GR,Kavala,4.7
+GR,Kerkyra,4.8
+GR,Kyllini,4.7
+GR,Lavrio (Sounio),4.8
+GR,Mykonos,5.0
+GR,Mytilini,4.9
+GR,Naxos,4.8
+GR,Paros,4.9
+GR,Patras,4.7
+GR,Rafina,4.8
+GR,Rodos,4.9
+GR,Santorini,5.0
+GR,Skiathos,4.9
+GR,Syros,4.8
+GR,Thessaloniki,4.7
+GR,Volos,4.8
+ESP,A Coruña,5.1
+ESP,Algeciras,5.0
+ESP,Alicante,4.9
+ESP,Almería,4.8
+ESP,Arrecife,5.0
+ESP,Avilés,5.1
+ESP,Barcelona,5.0
+ESP,Bilbao,5.1
+ESP,Cádiz,5.0
+ESP,Cala Sabina (Formentera),4.9
+ESP,Carboneras,4.8
+ESP,Cartagena,4.9
+ESP,Castellón,5.0
+ESP,Ceuta,4.8
+ESP,El Hierro,5.0
+ESP,Ferrol,5.1
+ESP,Fuerteventura,5.0
+ESP,Gijón,5.1
+ESP,Huelva,5.0
+ESP,Ibiza,4.9
+ESP,La Palma,5.0
+ESP,Las Palmas,5.1
+ESP,Mahón (Menorca),4.9
+ESP,Málaga,5.0
+ESP,Melilla,4.8
+ESP,Motril,4.9
+ESP,Palma de Mallorca,5.0
+ESP,Pasajes,5.1
+ESP,Sagunto,5.0
+ESP,San Cibrao,4.9
+ESP,San Sebastián de la Gomera,5.0
+ESP,Santander,5.1
+ESP,Sevilla,5.0
+ESP,Tarragona,5.0
+ESP,Tenerife,5.1
+ESP,Valencia,5.0
+ESP,Vigo,5.1
+FR,Ajaccio,5.0
+FR,Bastia,5.1
+FR,Bayonne,5.0
+FR,Bordeaux,5.1
+FR,Boulogne,5.0
+FR,Brest,5.1
+FR,Caen,5.0
+FR,Calais,5.1
+FR,Cayenne,5.0
+FR,Cherbourg,5.1
+FR,Dieppe,5.0
+FR,Dunkerque,5.1
+FR,Fort de France,5.0
+FR,Guadeloupe,5.1
+FR,La Rochelle,5.0
+FR,Le Havre,5.1
+FR,Lorient,5.0
+FR,Marseille,5.1
+FR,Fos-sur-Mer,5.0
+FR,Nantes Saint-Nazaire,5.1
+FR,Nice,5.0
+FR,Port Réunion,5.1
+FR,Roscoff,5.0
+FR,Rouen,5.1
+FR,Sète,5.0
+FR,Saint-Malo,5.1
+FR,Toulon,5.0
+CRO,Dubrovnik,4.9
+CRO,Ploče,4.8
+CRO,Pula,4.9
+CRO,Rijeka,5.0
+CRO,Šibenik,4.8
+CRO,Split,4.9
+CRO,Zadar,5.0
+IT,Ancona,5.0
+IT,Augusta,5.1
+IT,Bari,5.0
+IT,Brindisi,5.1
+IT,Cagliari,5.0
+IT,Carloforte,5.1
+IT,Chioggia,5.0
+IT,Civitavecchia,5.1
+IT,Fiumicino,5.0
+IT,Gaeta,5.1
+IT,Gela,5.0
+IT,Genova,5.1
+IT,Gioia Tauro,5.0
+IT,Golfo Aranci,5.1
+IT,La Maddalena,5.0
+IT,La Spezia,5.1
+IT,Livorno,5.0
+IT,Marina di Carrara,5.1
+IT,Messina,5.0
+IT,Milazzo,5.1
+IT,Monfalcone,5.0
+IT,Napoli,5.1
+IT,Olbia,5.0
+IT,Palau,5.1
+IT,Palermo,5.0
+IT,Piombino,5.1
+IT,Porto Levante,5.0
+IT,Porto Torres,5.1
+IT,Portoferraio,5.0
+IT,Ravenna,5.1
+IT,Reggio Calabria,5.0
+IT,Salerno,5.1
+IT,Savona - Vado,5.0
+IT,Siracusa,5.1
+IT,Taranto,5.0
+IT,Trapani,5.1
+IT,Trieste,5.0
+IT,Venezia,5.1
+CY,Larnaka,4.9
+CY,Lemesos,4.8
+LAT,Liepāja,4.9
+LAT,Rīga,5.0
+LAT,Ventspils,4.8
+LIT,Klaipėda,4.9
+MT,Cirkewwa,5.0
+MT,Marsaxlokk,4.9
+MT,Mgarr,4.8
+MT,Valletta,4.9
+NL,Amsterdam,5.1
+NL,Beverwijk,5.0
+NL,Delfzijl/Eemshaven,5.1
+NL,Den Helder,5.0
+NL,Dordrecht,5.1
+NL,Eemshaven,5.0
+NL,Harlingen,5.1
+NL,Moerdijk,5.0
+NL,Rotterdam,5.1
+NL,Terneuzen,5.0
+NL,Vlissingen,5.1
+NL,Velsen/IJmuiden,5.0
+NL,Vlaardingen,5.1
+PL,Gdańsk,5.0
+PL,Gdynia,5.1
+PL,Police,5.0
+PL,Szczecin,5.1
+PL,Świnoujście,5.0
+PT,Aveiro,5.1
+PT,Caniçal,5.0
+PT,Funchal,5.1
+PT,Horta,5.0
+PT,Lajes das Flores,5.1
+PT,Lisboa,5.0
+PT,Ponta Delgada,5.1
+PT,Portimão,5.0
+PT,Porto,5.1
+PT,Porto Santo,5.0
+PT,Praia da Vitória,5.1
+PT,Setúbal,5.0
+PT,Sines,5.1
+RO,Brăila,5.0
+RO,Constanţa,5.1
+RO,Galaţi,5.0
+RO,Sulina,5.1
+RO,Tulcea,5.0
+SLO,Koper,5.1
+SF,Eckerö,5.0
+SF,Hanko,5.1
+SF,Helsinki,5.0
+SF,Kaskinen,5.1
+SF,Kemi,5.0
+SF,Kilpilahti (Sköldvik),5.1
+SF,Kokkola,5.0
+SF,Hamina,5.1
+SF,Kotka,5.0
+SF,Maarianhamina,5.1
+SF,Oulu,5.0
+SF,Pietarsaari,5.1
+SF,Pori,5.0
+SF,Rauma,5.1
+SF,Rautaruukki/Raahe,5.0
+SF,Turku,5.1
+SF,Naantali,5.0
+SW,Gävle,5.1
+SW,Göteborg,5.0
+SW,Grisslehamn,5.1
+SW,Halmstad,5.0
+SW,Helsingborg,5.1
+SW,Kapellskär,5.0
+SW,Karlshamn,5.1
+SW,Karlskrona,5.0
+SW,Köping,5.1
+SW,Luleå,5.0
+SW,Malmö,5.1
+SW,Norrköping,5.0
+SW,Oskarshamn,5.1
+SW,Oxelösund,5.0
+SW,Stenungsund,5.1
+SW,Stockholm,5.0
+SW,Nynäshamn,5.1
+SW,Strömstad,5.0
+SW,Sundsvall,5.1
+SW,Trelleborg,5.0
+SW,Umeå,5.1
+SW,Varberg,5.0
+SW,Västerås,5.1
+SW,Visby,5.0
+SW,Ystad,5.1
+UK,Aberdeen,5.0
+UK,Belfast,5.1
+UK,Bristol,5.0
+UK,Cardiff,5.1
+UK,Cromarty Firth,5.0
+UK,Dover/Folkestone,5.1
+UK,Edinburgh,5.0
+UK,Felixstowe,5.1
+UK,Harwich,5.0
+UK,Fishguard,5.1
+UK,Glasgow,5.0
+UK,Glensanda,5.1
+UK,Goole,5.0
+UK,Grimsby/Immingham,5.1
+UK,Heysham,5.0
+UK,Holyhead,5.1
+UK,Hull,5.0
+UK,Ipswich,5.1
+UK,Larne,5.0
+UK,Liverpool,5.1
+UK,Loch Ryan Ports,5.0
+UK,London,5.1
+UK,Londonderry,5.0
+UK,Manchester,5.1
+UK,Medway,5.0
+UK,Milford Haven,5.1
+UK,Orkney,5.0
+UK,Plymouth,5.1
+UK,Poole,5.0
+UK,Port Salford,5.1
+UK,Port Talbot,5.0
+UK,Ramsgate,5.1
+UK,River Hull and Humber,5.0
+UK,Scrabster,5.1
+UK,Shetland Islands,5.0
+UK,Southampton,5.1
+UK,Portsmouth,5.0
+UK,Stornoway,5.1
+UK,Teesport,5.0
+UK,Tyne,5.1
+UK,Ullapool,5.0
+UK,Warrenpoint,5.1

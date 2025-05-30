@@ -1,0 +1,325 @@
+country_code,port_name,coverage_area_sq_km
+BE,Antwerpen,12.5
+BE,Gent,8.3
+BE,Oostende,6.7
+BE,Zeebrugge,10.2
+BU,Burgas,9.1
+BU,Varna,11.4
+DK,Aalborg,7.8
+DK,Aarhus,9.0
+DK,Branden,5.5
+DK,Ebeltoft,4.2
+DK,Esbjerg,8.7
+DK,Fredericia,6.3
+DK,Frederikshavn,7.1
+DK,Fur,3.8
+DK,Gedser,4.5
+DK,Helsingør,5.9
+DK,Hirtshals,6.4
+DK,Kalundborg,5.7
+DK,København,10.1
+DK,Køge,4.8
+DK,Nordby (Fanø),3.9
+DK,Odense,6.2
+DK,Rødby,4.1
+DK,Rønne,3.7
+DK,Sjællands Odde Ferry Port,4.3
+DK,Spodsbjerg,3.6
+DK,Tårs(Nakskov),4.0
+DK,Vejle,5.5
+DE,Bensersiel,6.8
+DE,Brake,7.2
+DE,Bremen,9.5
+DE,Bremerhaven,11.0
+DE,Brunsbüettel,8.4
+DE,Cuxhaven,10.3
+DE,Emden,9.8
+DE,Hamburg,12.7
+DE,Helgoland,5.1
+DE,Kiel,10.5
+DE,Langeoog,4.9
+DE,Lübeck,8.6
+DE,Norddeich,6.7
+DE,Nordenham,7.3
+DE,Norderney,5.0
+DE,Puttgarden,4.4
+DE,Rostock,11.2
+DE,Sassnitz,6.9
+DE,Stade-Bützfleth/Brunshausen,7.5
+DE,Wilhelmshaven,10.8
+DE,Wismar,8.1
+EST,Heltermaa,5.6
+EST,Kuivastu,4.7
+EST,Pärnu,6.3
+EST,Paldiski South Harbor,5.8
+EST,Rohuküla,4.9
+EST,Sillamäe,6.1
+EST,Tallinn,9.4
+EST,Virtsu,5.2
+IRL,Cork,7.9
+IRL,Dublin,8.3
+IRL,Limerick / Shannon,6.7
+IRL,Rosslare,5.4
+IRL,Waterford,6.0
+GR,Athens,15.2
+GR,Chalkida,7.1
+GR,Chania,6.8
+GR,Chios,5.9
+GR,Elefsina,7.3
+GR,Igoumenitsa,6.2
+GR,Iraklion,7.0
+GR,Kalamata,5.8
+GR,Katakolo,4.9
+GR,Kavala,6.1
+GR,Kerkyra,5.7
+GR,Kyllini,4.8
+GR,Lavrio (Sounio),6.3
+GR,Mykonos,5.5
+GR,Mytilini,5.6
+GR,Naxos,5.4
+GR,Paros,5.3
+GR,Patras,6.0
+GR,Rafina,6.2
+GR,Rodos,5.7
+GR,Santorini,5.1
+GR,Skiathos,5.0
+GR,Syros,5.2
+GR,Thessaloniki,7.4
+GR,Volos,6.8
+ESP,A Coruña,8.7
+ESP,Algeciras,9.1
+ESP,Alicante,7.5
+ESP,Almería,7.2
+ESP,Arrecife,6.3
+ESP,Avilés,7.8
+ESP,Barcelona,10.4
+ESP,Bilbao,8.9
+ESP,Cádiz,7.6
+ESP,Cala Sabina (Formentera),5.4
+ESP,Carboneras,6.1
+ESP,Cartagena,7.3
+ESP,Castellón,6.8
+ESP,Ceuta,5.9
+ESP,El Hierro,6.2
+ESP,Ferrol,7.7
+ESP,Fuerteventura,6.5
+ESP,Gijón,7.9
+ESP,Huelva,7.4
+ESP,Ibiza,5.6
+ESP,La Palma,6.3
+ESP,Las Palmas,6.7
+ESP,Mahón (Menorca),5.5
+ESP,Málaga,7.1
+ESP,Melilla,5.8
+ESP,Motril,6.0
+ESP,Palma de Mallorca,6.4
+ESP,Pasajes,7.0
+ESP,Sagunto,6.9
+ESP,San Cibrao,7.2
+ESP,San Sebastián de la Gomera,6.5
+ESP,Santander,7.8
+ESP,Sevilla,7.1
+ESP,Tarragona,6.8
+ESP,Tenerife,6.3
+ESP,Valencia,7.0
+ESP,Vigo,7.5
+FR,Ajaccio,6.4
+FR,Bastia,6.7
+FR,Bayonne,6.1
+FR,Bordeaux,7.0
+FR,Boulogne,6.3
+FR,Brest,6.5
+FR,Caen,6.2
+FR,Calais,6.4
+FR,Cayenne,6.1
+FR,Cherbourg,6.3
+FR,Dieppe,6.2
+FR,Dunkerque,6.5
+FR,Fort de France,6.4
+FR,Guadeloupe,6.7
+FR,La Rochelle,6.1
+FR,Le Havre,6.3
+FR,Lorient,6.5
+FR,Marseille,6.2
+FR,Fos-sur-Mer,6.4
+FR,Nantes Saint-Nazaire,6.7
+FR,Nice,6.1
+FR,Port Réunion,6.3
+FR,Roscoff,6.5
+FR,Rouen,6.2
+FR,Sète,6.4
+FR,Saint-Malo,6.7
+FR,Toulon,6.1
+CRO,Dubrovnik,5.8
+CRO,Ploče,5.9
+CRO,Pula,6.1
+CRO,Rijeka,5.7
+CRO,Šibenik,5.8
+CRO,Split,6.0
+CRO,Zadar,5.9
+IT,Ancona,6.3
+IT,Augusta,6.5
+IT,Bari,6.2
+IT,Brindisi,6.4
+IT,Cagliari,6.1
+IT,Carloforte,6.3
+IT,Chioggia,6.2
+IT,Civitavecchia,6.4
+IT,Fiumicino,6.3
+IT,Gaeta,6.5
+IT,Gela,6.2
+IT,Genova,6.4
+IT,Gioia Tauro,6.1
+IT,Golfo Aranci,6.3
+IT,La Maddalena,6.2
+IT,La Spezia,6.4
+IT,Livorno,6.3
+IT,Marina di Carrara,6.5
+IT,Messina,6.2
+IT,Milazzo,6.4
+IT,Monfalcone,6.3
+IT,Napoli,6.5
+IT,Olbia,6.2
+IT,Palau,6.4
+IT,Palermo,6.3
+IT,Piombino,6.5
+IT,Porto Levante,6.2
+IT,Porto Torres,6.3
+IT,Portoferraio,6.4
+IT,Ravenna,6.5
+IT,Reggio Calabria,6.2
+IT,Salerno,6.4
+IT,Savona - Vado,6.3
+IT,Siracusa,6.5
+IT,Taranto,6.2
+IT,Trapani,6.4
+IT,Trieste,6.3
+IT,Venezia,6.5
+CY,Larnaka,5.9
+CY,Lemesos,6.1
+LAT,Liepāja,6.0
+LAT,Rīga,6.2
+LAT,Ventspils,6.1
+LIT,Klaipėda,6.3
+MT,Cirkewwa,6.2
+MT,Marsaxlokk,6.4
+MT,Mgarr,6.3
+MT,Valletta,6.5
+NL,Amsterdam,7.0
+NL,Beverwijk,6.8
+NL,Delfzijl/Eemshaven,7.1
+NL,Den Helder,6.9
+NL,Dordrecht,7.0
+NL,Eemshaven,6.8
+NL,Harlingen,7.1
+NL,Moerdijk,6.9
+NL,Rotterdam,7.0
+NL,Terneuzen,6.8
+NL,Vlissingen,7.1
+PL,Gdańsk,6.9
+PL,Gdynia,7.0
+PL,Police,6.8
+PL,Szczecin,7.1
+PL,Świnoujście,6.9
+PT,Aveiro,7.0
+PT,Caniçal,6.8
+PT,Funchal,7.1
+PT,Horta,6.9
+PT,Lajes das Flores,7.0
+PT,Lisboa,6.8
+PT,Ponta Delgada,7.1
+PT,Portimão,6.9
+PT,Porto,7.0
+PT,Porto Santo,6.8
+PT,Praia da Vitória,7.1
+PT,Setúbal,6.9
+RO,Brăila,6.8
+RO,Constanţa,7.0
+RO,Galaţi,6.9
+RO,Sulina,7.1
+RO,Tulcea,6.8
+SLO,Koper,7.0
+SF,Eckerö,6.8
+SF,Hanko,7.1
+SF,Helsinki,6.9
+SF,Kaskinen,7.0
+SF,Kemi,6.8
+SF,Kilpilahti (Sköldvik),7.1
+SF,Kokkola,6.9
+SF,Hamina,7.0
+SF,Kotka,6.8
+SF,Maarianhamina,7.1
+SF,Oulu,6.9
+SF,Pietarsaari,7.0
+SF,Pori,6.8
+SF,Rauma,7.1
+SF,Rautaruukki/Raahe,6.9
+SF,Turku,7.0
+SF,Naantali,6.8
+SW,Gävle,7.0
+SW,Göteborg,6.8
+SW,Grisslehamn,7.1
+SW,Halmstad,6.9
+SW,Helsingborg,7.0
+SW,Kapellskär,6.8
+SW,Karlshamn,7.1
+SW,Karlskrona,6.9
+SW,Köping,7.0
+SW,Luleå,6.8
+SW,Malmö,7.1
+SW,Norrköping,6.9
+SW,Oskarshamn,7.0
+SW,Oxelösund,6.8
+SW,Stenungsund,7.1
+SW,Stockholm,6.9
+SW,Nynäshamn,7.0
+SW,Strömstad,6.8
+SW,Sundsvall,7.1
+SW,Trelleborg,6.9
+SW,Umeå,7.0
+SW,Varberg,6.8
+SW,Västerås,7.1
+SW,Visby,6.9
+SW,Ystad,7.0
+UK,Aberdeen,6.8
+UK,Belfast,7.0
+UK,Bristol,6.9
+UK,Cardiff,7.1
+UK,Cromarty Firth,6.8
+UK,Dover/Folkestone,7.0
+UK,Edinburgh,6.9
+UK,Felixstowe,7.1
+UK,Harwich,6.8
+UK,Fishguard,7.0
+UK,Glasgow,6.9
+UK,Glensanda,7.1
+UK,Goole,6.8
+UK,Grimsby/Immingham,7.0
+UK,Heysham,6.9
+UK,Holyhead,7.1
+UK,Hull,6.8
+UK,Ipswich,7.0
+UK,Larne,6.9
+UK,Liverpool,7.1
+UK,Loch Ryan Ports,6.8
+UK,London,7.0
+UK,Londonderry,6.9
+UK,Manchester,7.1
+UK,Medway,6.8
+UK,Milford Haven,7.0
+UK,Orkney,6.9
+UK,Plymouth,7.1
+UK,Poole,6.8
+UK,Port Salford,7.0
+UK,Port Talbot,6.9
+UK,Ramsgate,7.1
+UK,River Hull and Humber,6.8
+UK,Scrabster,7.0
+UK,Shetland Islands,6.9
+UK,Southampton,7.1
+UK,Portsmouth,6.8
+UK,Stornoway,7.0
+UK,Teesport,6.9
+UK,Tyne,7.1
+UK,Ullapool,6.8
+UK,Warrenpoint,7.0

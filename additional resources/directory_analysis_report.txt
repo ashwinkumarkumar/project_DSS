@@ -1,0 +1,29 @@
+Directory Analysis Report:
+
+1. CSV Data Files:
+- ports_humidity.csv: Contains country_code, port_name, humidity_percent for various ports.
+- ports_coverage_area.csv: Contains country_code, port_name, coverage_area_sq_km.
+- ports_temperature_range.csv: Contains country_code, port_name, temperature_range_c.
+- ports_wind_speed_extended.csv: Contains country_code, port_name, average_wind_speed_m_s, maximum_wind_speed_m_s.
+- ports_data.csv: Contains country_code, port_name, classification (Core/Comprehensive), and corridor information.
+- droneType.csv: Contains detailed specifications of various drone models including flight radius, payload, camera specs, and environmental resistances.
+
+2. Python Scripts:
+- merge_ports_data.py: Script to merge the four ports-related CSV files into a single CSV file.
+- fetch_port_weather.py: Likely fetches weather data for ports (content not available for detailed analysis).
+- backend/app.py and backend/utils.py: Backend service scripts (not analyzed in detail).
+  
+3. Frontend:
+- frontend/templates/: Contains HTML templates such as index.html and results.html.
+- frontend/static/: Static assets (not detailed).
+- frontend/forms.py and frontend/views.py: Likely handle web forms and views.
+
+4. Other Files and Directories:
+- Documentation files in docs/ and README.md.
+- Additional resources including images and PDFs.
+- Tests directory with test scripts for backend and frontend.
+
+Summary:
+The project appears to be a web application involving port data and drone specifications, with backend and frontend components. The data files provide environmental and operational parameters for ports and drones. The merge_ports_data.py script consolidates port environmental data into a single CSV for easier analysis or use.
+
+Please let me know if you need further detailed analysis or specific information.

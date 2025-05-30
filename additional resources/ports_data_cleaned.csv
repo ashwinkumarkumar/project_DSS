@@ -1,0 +1,328 @@
+country_code,port_name
+BE,Antwerpen
+BE,Gent
+BE,Oostende
+BE,Zeebrugge
+BU,Burgas
+BU,Varna
+DK,Aalborg
+DK,Aarhus
+DK,Branden
+DK,Ebeltoft
+DK,Esbjerg
+DK,Fredericia
+DK,Frederikshavn
+DK,Fur
+DK,Gedser
+DK,Helsingør
+DK,Hirtshals
+DK,Kalundborg
+DK,København
+DK,Køge
+DK,Nordby (Fanø)
+DK,Odense
+DK,Rødby
+DK,Rønne
+DK,Sjællands Odde Ferry Port
+DK,Spodsbjerg
+DK,Tårs(Nakskov)
+DK,Vejle
+DE,Bensersiel
+DE,Brake
+DE,Bremen
+DE,Bremerhaven
+DE,Brunsbüettel
+DE,Cuxhaven
+DE,Emden
+DE,Hamburg
+DE,Helgoland
+DE,Kiel
+DE,Langeoog
+DE,Lübeck
+DE,Norddeich
+DE,Nordenham
+DE,Norderney
+DE,Puttgarden
+DE,Rostock
+DE,Sassnitz
+DE,Stade-Bützfleth/Brunshausen
+DE,Wilhelmshaven
+DE,Wismar
+EST,Heltermaa
+EST,Kuivastu
+EST,Pärnu
+EST,Paldiski South Harbor
+EST,Rohuküla
+EST,Sillamäe
+EST,Tallinn
+EST,Virtsu
+IRL,Cork
+IRL,Dublin
+IRL,Limerick / Shannon
+IRL,Rosslare
+IRL,Waterford
+GR,Athens
+GR,Chalkida
+GR,Chania
+GR,Chios
+GR,Elefsina
+GR,Igoumenitsa
+GR,Iraklion
+GR,Kalamata
+GR,Katakolo
+GR,Kavala
+GR,Kerkyra
+GR,Kyllini
+GR,Lavrio (Sounio)
+GR,Mykonos
+GR,Mytilini
+GR,Naxos
+GR,Paros
+GR,Patras
+GR,Rafina
+GR,Rodos
+GR,Santorini
+GR,Skiathos
+GR,Syros
+GR,Thessaloniki
+GR,Volos
+ESP,A Coruña
+ESP,Algeciras
+ESP,Alicante
+ESP,Almería
+ESP,Arrecife
+ESP,Avilés
+ESP,Barcelona
+ESP,Bilbao
+ESP,Cádiz
+ESP,Cala Sabina (Formentera)
+ESP,Carboneras
+ESP,Cartagena
+ESP,Castellón
+ESP,Ceuta
+ESP,El Hierro
+ESP,Ferrol
+ESP,Fuerteventura
+ESP,Gijón
+ESP,Huelva
+ESP,Ibiza
+ESP,La Palma
+ESP,Las Palmas
+ESP,Mahón (Menorca)
+ESP,Málaga
+ESP,Melilla
+ESP,Motril
+ESP,Palma de Mallorca
+ESP,Pasajes
+ESP,Sagunto
+ESP,San Cibrao
+ESP,San Sebastián de la Gomera
+ESP,Santander
+ESP,Sevilla
+ESP,Tarragona
+ESP,Tenerife
+ESP,Valencia
+ESP,Vigo
+FR,Ajaccio
+FR,Bastia
+FR,Bayonne
+FR,Bordeaux
+FR,Boulogne
+FR,Brest
+FR,Caen
+FR,Calais
+FR,Cayenne
+FR,Cherbourg
+FR,Dieppe
+FR,Dunkerque
+FR,Fort de France
+FR,Guadeloupe
+FR,La Rochelle
+FR,Le Havre
+FR,Lorient
+FR,Marseille
+FR,Fos-sur-Mer
+FR,Nantes Saint-Nazaire
+FR,Nice
+FR,Port Réunion
+FR,Roscoff
+FR,Rouen
+FR,Sète
+FR,Saint-Malo
+FR,Toulon
+CRO,Dubrovnik
+CRO,Ploče
+CRO,Pula
+CRO,Rijeka
+CRO,Šibenik
+CRO,Split
+CRO,Zadar
+IT,Ancona
+IT,Augusta
+IT,Bari
+IT,Brindisi
+IT,Cagliari
+IT,Carloforte
+IT,Chioggia
+IT,Civitavecchia
+IT,Fiumicino
+IT,Gaeta
+IT,Gela
+IT,Genova
+IT,Gioia Tauro
+IT,Golfo Aranci
+IT,La Maddalena
+IT,La Spezia
+IT,Livorno
+IT,Marina di Carrara
+IT,Messina
+IT,Milazzo
+IT,Monfalcone
+IT,Napoli
+IT,Olbia
+IT,Palau
+IT,Palermo
+IT,Piombino
+IT,Porto Levante
+IT,Porto Torres
+IT,Portoferraio
+IT,Ravenna
+IT,Reggio Calabria
+IT,Salerno
+IT,Savona - Vado
+IT,Siracusa
+IT,Taranto
+IT,Trapani
+IT,Trieste
+IT,Venezia
+CY,Larnaka
+CY,Lemesos
+LAT,Liepāja
+LAT,Rīga
+LAT,Ventspils
+LIT,Klaipėda
+MT,Cirkewwa
+MT,Marsaxlokk
+MT,Mgarr
+MT,Valletta
+NL,Amsterdam
+NL,Beverwijk
+NL,Delfzijl/Eemshaven
+NL,Den Helder
+NL,Dordrecht
+NL,Eemshaven
+NL,Harlingen
+NL,Moerdijk
+NL,Rotterdam
+NL,Terneuzen
+NL,Vlissingen
+NL,Velsen/IJmuiden
+NL,Vlaardingen
+PL,Gdańsk
+PL,Gdynia
+PL,Police
+PL,Szczecin
+PL,Świnoujście
+PT,Aveiro
+PT,Caniçal
+PT,Funchal
+PT,Horta
+PT,Lajes das Flores
+PT,Lisboa
+PT,Ponta Delgada
+PT,Portimão
+PT,Porto
+PT,Porto Santo
+PT,Praia da Vitória
+PT,Setúbal
+PT,Sines
+RO,Brăila
+RO,Constanţa
+RO,Galaţi
+RO,Sulina
+RO,Tulcea
+SLO,Koper
+SF,Eckerö
+SF,Hanko
+SF,Helsinki
+SF,Kaskinen
+SF,Kemi
+SF,Kilpilahti (Sköldvik)
+SF,Kokkola
+SF,Hamina
+SF,Kotka
+SF,Maarianhamina
+SF,Oulu
+SF,Pietarsaari
+SF,Pori
+SF,Rauma
+SF,Rautaruukki/Raahe
+SF,Turku
+SF,Naantali
+SW,Gävle
+SW,Göteborg
+SW,Grisslehamn
+SW,Halmstad
+SW,Helsingborg
+SW,Kapellskär
+SW,Karlshamn
+SW,Karlskrona
+SW,Köping
+SW,Luleå
+SW,Malmö
+SW,Norrköping
+SW,Oskarshamn
+SW,Oxelösund
+SW,Stenungsund
+SW,Stockholm
+SW,Nynäshamn
+SW,Strömstad
+SW,Sundsvall
+SW,Trelleborg
+SW,Umeå
+SW,Varberg
+SW,Västerås
+SW,Visby
+SW,Ystad
+UK,Aberdeen
+UK,Belfast
+UK,Bristol
+UK,Cardiff
+UK,Cromarty Firth
+UK,Dover/Folkestone
+UK,Edinburgh
+UK,Felixstowe
+UK,Harwich
+UK,Fishguard
+UK,Glasgow
+UK,Glensanda
+UK,Goole
+UK,Grimsby/Immingham
+UK,Heysham
+UK,Holyhead
+UK,Hull
+UK,Ipswich
+UK,Larne
+UK,Liverpool
+UK,Loch Ryan Ports
+UK,London
+UK,Londonderry
+UK,Manchester
+UK,Medway
+UK,Milford Haven
+UK,Orkney
+UK,Plymouth
+UK,Poole
+UK,Port Salford
+UK,Port Talbot
+UK,Ramsgate
+UK,River Hull and Humber
+UK,Scrabster
+UK,Shetland Islands
+UK,Southampton
+UK,Portsmouth
+UK,Stornoway
+UK,Teesport
+UK,Tyne
+UK,Ullapool
+UK,Warrenpoint

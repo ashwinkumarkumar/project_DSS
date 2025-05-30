@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Decision Support System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Drone Decision Support</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="selection.html">Selection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
+                    <li class="nav-item"><a class="nav-link" href="analysis.html">Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="settings.html">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h2 class="text-center">Select Your Drone Preferences</h2>
+
+        <form action="/match-drones" method="POST">
+            
+            <!-- Port Selection -->
+            <div class="card p-3 mt-3">
+                <h4>Port Selection</h4>
+                <label for="port">Select Port:</label>
+                <input list="port-list" name="port" class="form-control" placeholder="Type to search port...">
+                <datalist id="port-list">
+                    <option value="Antwerpen">
+                    <option value="Gent">
+                    <option value="Oostende">
+                    <option value="Zeebrugge">
+                    <option value="Burgas">
+                    <option value="Varna">
+                    <option value="Dubrovnik">
+                    <option value="Ploče">
+                    <option value="Pula">
+                    <option value="Rijeka">
+                    <option value="Split">
+                    <option value="Zadar">
+                    <option value="Šibenik">
+                    <option value="Larnaka">
+                    <option value="Lemesos">
+                    <option value="Bensersiel">
+                    <option value="Brake">
+                    <option value="Bremen">
+                    <option value="Bremerhaven">
+                    <option value="Brunsbüettel">
+                    <option value="Cuxhaven">
+                    <option value="Emden">
+                    <option value="Hamburg">
+                    <option value="Helgoland">
+                    <option value="Kiel">
+                    <option value="Langeoog">
+                    <option value="Lübeck">
+                    <option value="Norddeich">
+                    <option value="Nordenham">
+                    <option value="Norderney">
+                    <option value="Puttgarden">
+                    <option value="Rostock">
+                    <option value="Sassnitz">
+                    <option value="Stade-Bützfleth/Brunshausen">
+                    <option value="Wilhelmshaven">
+                    <option value="Wismar">
+                    <option value="Aalborg">
+                    <option value="Aarhus">
+                    <option value="Branden">
+                    <option value="Ebeltoft">
+                    <option value="Esbjerg">
+                    <option value="Fredericia">
+                    <option value="Frederikshavn">
+                    <option value="Fur">
+                    <option value="Gedser">
+                    <option value="Helsingør">
+                    <option value="Hirtshals">
+                    <option value="Kalundborg">
+                    <option value="København">
+                    <option value="Køge">
+                    <option value="Nordby (Fanø)">
+                    <option value="Odense">
+                    <option value="Rødby">
+                    <option value="Rønne">
+                    <option value="Sjællands Odde Ferry Port">
+                    <option value="Spodsbjerg">
+                    <option value="Tårs(Nakskov)">
+                    <option value="Vejle">
+                    <option value="A Coruña">
+                    <option value="Algeciras">
+                    <option value="Alicante">
+                    <option value="Almería">
+                    <option value="Arrecife">
+                    <option value="Avilés">
+                    <option value="Barcelona">
+                    <option value="Bilbao">
+                    <option value="Cala Sabina (Formentera)">
+                    <option value="Carboneras">
+                    <option value="Cartagena">
+                    <option value="Castellón">
+                    <option value="Ceuta">
+                    <option value="Cádiz">
+                    <option value="El Hierro">
+                    <option value="Ferrol">
+                    <option value="Fuerteventura">
+                    <option value="Gijón">
+                    <option value="Huelva">
+                    <option value="Ibiza">
+                    <option value="La Palma">
+                    <option value="Las Palmas">
+                    <option value="Mahón (Menorca)">
+                    <option value="Melilla">
+                    <option value="Motril">
+                    <option value="Málaga">
+                    <option value="Palma de Mallorca">
+                    <option value="Pasajes">
+                    <option value="Sagunto">
+                    <option value="San Cibrao">
+                    <option value="San Sebastián de la Gomera">
+                    <option value="Santander">
+                    <option value="Sevilla">
+                    <option value="Tarragona">
+                    <option value="Tenerife">
+                    <option value="Valencia">
+                    <option value="Vigo">
+                    <option value="Heltermaa">
+                    <option value="Kuivastu">
+                    <option value="Paldiski South Harbor">
+                    <option value="Pärnu">
+                    <option value="Rohuküla">
+                    <option value="Sillamäe">
+                    <option value="Tallinn">
+                    <option value="Virtsu">
+                    <option value="Ajaccio">
+                    <option value="Bastia">
+                    <option value="Bayonne">
+                    <option value="Bordeaux">
+                    <option value="Boulogne">
+                    <option value="Brest">
+                    <option value="Caen">
+                    <option value="Calais">
+                    <option value="Cayenne">
+                    <option value="Cherbourg">
+                    <option value="Dieppe">
+                    <option value="Dunkerque">
+                    <option value="Fort de France">
+                    <option value="Fos-sur-Mer">
+                    <option value="Guadeloupe">
+                    <option value="La Rochelle">
+                    <option value="Le Havre">
+                    <option value="Lorient">
+                    <option value="Marseille">
+                    <option value="Nantes Saint-Nazaire">
+                    <option value="Nice">
+                    <option value="Port Réunion">
+                    <option value="Roscoff">
+                    <option value="Rouen">
+                    <option value="Saint-Malo">
+                    <option value="Sète">
+                    <option value="Toulon">
+                    <option value="Athens">
+                    <option value="Chalkida">
+                    <option value="Chania">
+                    <option value="Chios">
+                    <option value="Elefsina">
+                    <option value="Igoumenitsa">
+                    <option value="Iraklion">
+                    <option value="Kalamata">
+                    <option value="Katakolo">
+                    <option value="Kavala">
+                    <option value="Kerkyra">
+                    <option value="Kyllini">
+                    <option value="Lavrio (Sounio)">
+                    <option value="Mykonos">
+                    <option value="Mytilini">
+                    <option value="Naxos">
+                    <option value="Paros">
+                    <option value="Patras">
+                    <option value="Rafina">
+                    <option value="Rodos">
+                    <option value="Santorini">
+                    <option value="Skiathos">
+                    <option value="Syros">
+                    <option value="Thessaloniki">
+                    <option value="Volos">
+                    <option value="Cork">
+                    <option value="Dublin">
+                    <option value="Limerick / Shannon">
+                    <option value="Rosslare">
+                    <option value="Waterford">
+                    <option value="Ancona">
+                    <option value="Augusta">
+                    <option value="Bari">
+                    <option value="Brindisi">
+                    <option value="Cagliari">
+                    <option value="Carloforte">
+                    <option value="Chioggia">
+                    <option value="Civitavecchia">
+                    <option value="Fiumicino">
+                    <option value="Gaeta">
+                    <option value="Gela">
+                    <option value="Genova">
+                    <option value="Gioia Tauro">
+                    <option value="Golfo Aranci">
+                    <option value="La Maddalena">
+                    <option value="La Spezia">
+                    <option value="Livorno">
+                    <option value="Marina di Carrara">
+                    <option value="Messina">
+                    <option value="Milazzo">
+                    <option value="Monfalcone">
+                    <option value="Napoli">
+                    <option value="Olbia">
+                    <option value="Palau">
+                    <option value="Palermo">
+                    <option value="Piombino">
+                    <option value="Porto Levante">
+                    <option value="Porto Torres">
+                    <option value="Portoferraio">
+                    <option value="Ravenna">
+                    <option value="Reggio Calabria">
+                    <option value="Salerno">
+                    <option value="Savona - Vado">
+                    <option value="Siracusa">
+                    <option value="Taranto">
+                    <option value="Trapani">
+                    <option value="Trieste">
+                    <option value="Venezia">
+                    <option value="Liepāja">
+                    <option value="Rīga">
+                    <option value="Ventspils">
+                    <option value="Klaipėda">
+                    <option value="Cirkewwa">
+                    <option value="Marsaxlokk">
+                    <option value="Mgarr">
+                    <option value="Valletta">
+                    <option value="Amsterdam">
+                    <option value="Beverwijk">
+                    <option value="Delfzijl/Eemshaven">
+                    <option value="Den Helder">
+                    <option value="Dordrecht">
+                    <option value="Eemshaven">
+                    <option value="Harlingen">
+                    <option value="Moerdijk">
+                    <option value="Rotterdam">
+                    <option value="Terneuzen">
+                    <option value="Velsen/IJmuiden">
+                    <option value="Vlaardingen">
+                    <option value="Vlissingen">
+                    <option value="Gdańsk">
+                    <option value="Gdynia">
+                    <option value="Police">
+                    <option value="Szczecin">
+                    <option value="Świnoujście">
+                    <option value="Aveiro">
+                    <option value="Caniçal">
+                    <option value="Funchal">
+                    <option value="Horta">
+                    <option value="Lajes das Flores">
+                    <option value="Lisboa">
+                    <option value="Ponta Delgada">
+                    <option value="Portimão">
+                    <option value="Porto">
+                    <option value="Porto Santo">
+                    <option value="Praia da Vitória">
+                    <option value="Setúbal">
+                    <option value="Sines">
+                    <option value="Brăila">
+                    <option value="Constanţa">
+                    <option value="Galaţi">
+                    <option value="Sulina">
+                    <option value="Tulcea">
+                    <option value="Eckerö">
+                    <option value="Hamina">
+                    <option value="Hanko">
+                    <option value="Helsinki">
+                    <option value="Kaskinen">
+                    <option value="Kemi">
+                    <option value="Kilpilahti (Sköldvik)">
+                    <option value="Kokkola">
+                    <option value="Kotka">
+                    <option value="Maarianhamina">
+                    <option value="Naantali">
+                    <option value="Oulu">
+                    <option value="Pietarsaari">
+                    <option value="Pori">
+                    <option value="Rauma">
+                    <option value="Rautaruukki/Raahe">
+                    <option value="Turku">
+                    <option value="Koper">
+                    <option value="Grisslehamn">
+                    <option value="Gävle">
+                    <option value="Göteborg">
+                    <option value="Halmstad">
+                    <option value="Helsingborg">
+                    <option value="Kapellskär">
+                    <option value="Karlshamn">
+                    <option value="Karlskrona">
+                    <option value="Köping">
+                    <option value="Luleå">
+                    <option value="Malmö">
+                    <option value="Norrköping">
+                    <option value="Nynäshamn">
+                    <option value="Oskarshamn">
+                    <option value="Oxelösund">
+                    <option value="Stenungsund">
+                    <option value="Stockholm">
+                    <option value="Strömstad">
+                    <option value="Sundsvall">
+                    <option value="Trelleborg">
+                    <option value="Umeå">
+                    <option value="Varberg">
+                    <option value="Visby">
+                    <option value="Västerås">
+                    <option value="Ystad">
+                    <option value="Aberdeen">
+                    <option value="Belfast">
+                    <option value="Bristol">
+                    <option value="Cardiff">
+                    <option value="Cromarty Firth">
+                    <option value="Dover/Folkestone">
+                    <option value="Edinburgh">
+                    <option value="Felixstowe">
+                    <option value="Fishguard">
+                    <option value="Glasgow">
+                    <option value="Glensanda">
+                    <option value="Goole">
+                    <option value="Grimsby/Immingham">
+                    <option value="Harwich">
+                    <option value="Heysham">
+                    <option value="Holyhead">
+                    <option value="Hull">
+                    <option value="Ipswich">
+                    <option value="Larne">
+                    <option value="Liverpool">
+                    <option value="Loch Ryan Ports">
+                    <option value="London">
+                    <option value="Londonderry">
+                    <option value="Manchester">
+                    <option value="Medway">
+                    <option value="Milford Haven">
+                    <option value="Orkney">
+                    <option value="Plymouth">
+                    <option value="Poole">
+                    <option value="Port Salford">
+                    <option value="Port Talbot">
+                    <option value="Portsmouth">
+                    <option value="Ramsgate">
+                    <option value="River Hull and Humber">
+                    <option value="Scrabster">
+                    <option value="Shetland Islands">
+                    <option value="Southampton">
+                    <option value="Stornoway">
+                    <option value="Teesport">
+                    <option value="Tyne">
+                    <option value="Ullapool">
+                    <option value="Warrenpoint">
+                </datalist>
+            </div>
+
+            <!-- Purpose Selection -->
+            <div class="card p-3 mt-3">
+                <h4>Drone Purpose Selection</h4>
+                <label>Select Drone Purposes:</label>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Reconnaissance" class="form-check-input">
+                    <label class="form-check-label">Reconnaissance</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Port Security" class="form-check-input">
+                    <label class="form-check-label">Port Security</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Ship Inspection" class="form-check-input">
+                    <label class="form-check-label">Ship Inspection</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Environmental Monitoring" class="form-check-input">
+                    <label class="form-check-label">Environmental Monitoring</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Search & Rescue" class="form-check-input">
+                    <label class="form-check-label">Search & Rescue</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Cargo & Logistics Monitoring" class="form-check-input">
+                    <label class="form-check-label">Cargo & Logistics Monitoring</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Harbor Traffic Management" class="form-check-input">
+                    <label class="form-check-label">Harbor Traffic Management</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Emergency Response & Fire Detection" class="form-check-input">
+                    <label class="form-check-label">Emergency Response & Fire Detection</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Infrastructure & Structural Inspection" class="form-check-input">
+                    <label class="form-check-label">Infrastructure & Structural Inspection</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="purpose" value="Agricultural" class="form-check-input">
+                    <label class="form-check-label">Agricultural</label>
+                </div>
+            </div>
+
+            <!-- Budget & Maintenance Input -->
+            <div class="card p-3 mt-3">
+                <h4>Budget & Maintenance</h4>
+                <label for="budget">Budget (€):</label>
+                <input type="number" name="budget" class="form-control" required>
+
+                <label for="maintenance_cost">Max Maintenance Cost (€):</label>
+                <input type="number" name="maintenance_cost" class="form-control" required>
+            </div>
+
+           <div class="card p-3 mt-3">
+                <h4>AHP Criteria Priorities</h4>
+
+                <label for="battery_life_priority">Battery Life Priority: <span id="battery_life_value">3</span></label>
+                <input type="range" name="battery_life_priority" min="1" max="5" step="0.5" value="3" class="form-range" style="width: 70%;" 
+                    oninput="document.getElementById('battery_life_value').innerText = this.value;">
+
+                <label for="wind_resistance_priority">Wind Resistance Priority: <span id="wind_resistance_value">3</span></label>
+                <input type="range" name="wind_resistance_priority" min="1" max="5" step="0.5" value="3" class="form-range" style="width: 70%;" 
+                    oninput="document.getElementById('wind_resistance_value').innerText = this.value;">
+
+                <label for="camera_resolution_priority">Camera Resolution Priority: <span id="camera_resolution_value">3</span></label>
+                <input type="range" name="camera_resolution_priority" min="1" max="5" step="0.5" value="3" class="form-range" style="width: 70%;" 
+                    oninput="document.getElementById('camera_resolution_value').innerText = this.value;">
+
+                <label for="price_priority">Price Priority: <span id="price_value">3</span></label>
+                <input type="range" name="price_priority" min="1" max="5" step="0.5" value="3" class="form-range" style="width: 70%;"
+                    oninput="document.getElementById('price_value').innerText = this.value;">
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Find Drones</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,326 @@
+country_code,port_name,temperature_range_c
+BE,Antwerpen,2-18
+BE,Gent,3-17
+BE,Oostende,4-16
+BE,Zeebrugge,4-16
+BU,Burgas,1-20
+BU,Varna,2-19
+DK,Aalborg,-1-16
+DK,Aarhus,-2-15
+DK,Branden,-1-16
+DK,Ebeltoft,-1-16
+DK,Esbjerg,-1-15
+DK,Fredericia,-2-15
+DK,Frederikshavn,-3-14
+DK,Fur,-2-15
+DK,Gedser,-1-16
+DK,Helsingør,-1-16
+DK,Hirtshals,-2-15
+DK,Kalundborg,-1-16
+DK,København,-1-16
+DK,Køge,-1-16
+DK,Nordby (Fanø),-2-15
+DK,Odense,-1-16
+DK,Rødby,-1-16
+DK,Rønne,-1-16
+DK,Sjællands Odde Ferry Port,-1-16
+DK,Spodsbjerg,-1-16
+DK,Tårs(Nakskov),-1-16
+DK,Vejle,-1-16
+DE,Bensersiel,-1-16
+DE,Brake,-2-15
+DE,Bremen,-1-16
+DE,Bremerhaven,-1-15
+DE,Brunsbüettel,-1-16
+DE,Cuxhaven,-1-15
+DE,Emden,-1-15
+DE,Hamburg,-1-16
+DE,Helgoland,-1-15
+DE,Kiel,-1-15
+DE,Langeoog,-1-15
+DE,Lübeck,-1-16
+DE,Norddeich,-1-15
+DE,Nordenham,-1-16
+DE,Norderney,-1-15
+DE,Puttgarden,-1-15
+DE,Rostock,-1-15
+DE,Sassnitz,-1-15
+DE,Stade-Bützfleth/Brunshausen,-1-16
+DE,Wilhelmshaven,-1-15
+DE,Wismar,-1-16
+EST,Heltermaa,-2-15
+EST,Kuivastu,-2-15
+EST,Pärnu,-2-15
+EST,Paldiski South Harbor,-2-15
+EST,Rohuküla,-2-15
+EST,Sillamäe,-2-15
+EST,Tallinn,-2-15
+EST,Virtsu,-2-15
+IRL,Cork,3-17
+IRL,Dublin,3-16
+IRL,Limerick / Shannon,4-15
+IRL,Rosslare,4-15
+IRL,Waterford,4-15
+GR,Athens,7-28
+GR,Chalkida,7-27
+GR,Chania,8-26
+GR,Chios,7-27
+GR,Elefsina,7-27
+GR,Igoumenitsa,7-26
+GR,Iraklion,8-26
+GR,Kalamata,7-27
+GR,Katakolo,7-26
+GR,Kavala,7-27
+GR,Kerkyra,7-27
+GR,Kyllini,7-27
+GR,Lavrio (Sounio),7-27
+GR,Mykonos,8-26
+GR,Mytilini,7-27
+GR,Naxos,7-27
+GR,Paros,7-27
+GR,Patras,7-27
+GR,Rafina,7-27
+GR,Rodos,8-26
+GR,Santorini,8-26
+GR,Skiathos,7-27
+GR,Syros,7-27
+GR,Thessaloniki,7-27
+GR,Volos,7-27
+ESP,A Coruña,6-24
+ESP,Algeciras,6-24
+ESP,Alicante,7-25
+ESP,Almería,7-25
+ESP,Arrecife,6-24
+ESP,Avilés,6-24
+ESP,Barcelona,7-25
+ESP,Bilbao,6-24
+ESP,Cádiz,6-24
+ESP,Cala Sabina (Formentera),7-25
+ESP,Carboneras,7-25
+ESP,Cartagena,7-25
+ESP,Castellón,7-25
+ESP,Ceuta,6-24
+ESP,El Hierro,6-24
+ESP,Ferrol,6-24
+ESP,Fuerteventura,6-24
+ESP,Gijón,6-24
+ESP,Huelva,6-24
+ESP,Ibiza,7-25
+ESP,La Palma,6-24
+ESP,Las Palmas,6-24
+ESP,Mahón (Menorca),7-25
+ESP,Málaga,7-25
+ESP,Melilla,6-24
+ESP,Motril,7-25
+ESP,Palma de Mallorca,6-24
+ESP,Pasajes,6-24
+ESP,Sagunto,7-25
+ESP,San Cibrao,6-24
+ESP,San Sebastián de la Gomera,6-24
+ESP,Santander,6-24
+ESP,Sevilla,7-25
+ESP,Tarragona,7-25
+ESP,Tenerife,6-24
+ESP,Valencia,7-25
+ESP,Vigo,6-24
+FR,Ajaccio,7-25
+FR,Bastia,7-25
+FR,Bayonne,7-25
+FR,Bordeaux,7-25
+FR,Boulogne,7-25
+FR,Brest,7-25
+FR,Caen,7-25
+FR,Calais,7-25
+FR,Cayenne,7-25
+FR,Cherbourg,7-25
+FR,Dieppe,7-25
+FR,Dunkerque,7-25
+FR,Fort de France,7-25
+FR,Guadeloupe,7-25
+FR,La Rochelle,7-25
+FR,Le Havre,7-25
+FR,Lorient,7-25
+FR,Marseille,7-25
+FR,Fos-sur-Mer,7-25
+FR,Nantes Saint-Nazaire,7-25
+FR,Nice,7-25
+FR,Port Réunion,7-25
+FR,Roscoff,7-25
+FR,Rouen,7-25
+FR,Sète,7-25
+FR,Saint-Malo,7-25
+FR,Toulon,7-25
+CRO,Dubrovnik,8-27
+CRO,Ploče,8-27
+CRO,Pula,8-27
+CRO,Rijeka,8-27
+CRO,Šibenik,8-27
+CRO,Split,8-27
+CRO,Zadar,8-27
+IT,Ancona,7-26
+IT,Augusta,7-26
+IT,Bari,7-26
+IT,Brindisi,7-26
+IT,Cagliari,7-26
+IT,Carloforte,7-26
+IT,Chioggia,7-26
+IT,Civitavecchia,7-26
+IT,Fiumicino,7-26
+IT,Gaeta,7-26
+IT,Gela,7-26
+IT,Genova,7-26
+IT,Gioia Tauro,7-26
+IT,Golfo Aranci,7-26
+IT,La Maddalena,7-26
+IT,La Spezia,7-26
+IT,Livorno,7-26
+IT,Marina di Carrara,7-26
+IT,Messina,7-26
+IT,Milazzo,7-26
+IT,Monfalcone,7-26
+IT,Napoli,7-26
+IT,Olbia,7-26
+IT,Palau,7-26
+IT,Palermo,7-26
+IT,Piombino,7-26
+IT,Porto Levante,7-26
+IT,Porto Torres,7-26
+IT,Portoferraio,7-26
+IT,Ravenna,7-26
+IT,Reggio Calabria,7-26
+IT,Salerno,7-26
+IT,Savona - Vado,7-26
+IT,Siracusa,7-26
+IT,Taranto,7-26
+IT,Trapani,7-26
+IT,Trieste,7-26
+IT,Venezia,7-26
+CY,Larnaka,7-26
+CY,Lemesos,7-26
+LAT,Liepāja,7-26
+LAT,Rīga,7-26
+LAT,Ventspils,7-26
+LIT,Klaipėda,7-26
+MT,Cirkewwa,7-26
+MT,Marsaxlokk,7-26
+MT,Mgarr,7-26
+MT,Valletta,7-26
+NL,Amsterdam,6-25
+NL,Beverwijk,6-25
+NL,Delfzijl/Eemshaven,6-25
+NL,Den Helder,6-25
+NL,Dordrecht,6-25
+NL,Eemshaven,6-25
+NL,Harlingen,6-25
+NL,Moerdijk,6-25
+NL,Rotterdam,6-25
+NL,Terneuzen,6-25
+NL,Vlissingen,6-25
+PL,Gdańsk,6-25
+PL,Gdynia,6-25
+PL,Police,6-25
+PL,Szczecin,6-25
+PL,Świnoujście,6-25
+PT,Aveiro,6-25
+PT,Caniçal,6-25
+PT,Funchal,6-25
+PT,Horta,6-25
+PT,Lajes das Flores,6-25
+PT,Lisboa,6-25
+PT,Ponta Delgada,6-25
+PT,Portimão,6-25
+PT,Porto,6-25
+PT,Porto Santo,6-25
+PT,Praia da Vitória,6-25
+PT,Setúbal,6-25
+PT,Sines,6-25
+RO,Brăila,6-25
+RO,Constanţa,6-25
+RO,Galaţi,6-25
+RO,Sulina,6-25
+RO,Tulcea,6-25
+SLO,Koper,6-25
+SF,Eckerö,6-25
+SF,Hanko,6-25
+SF,Helsinki,6-25
+SF,Kaskinen,6-25
+SF,Kemi,6-25
+SF,Kilpilahti (Sköldvik),6-25
+SF,Kokkola,6-25
+SF,Hamina,6-25
+SF,Kotka,6-25
+SF,Maarianhamina,6-25
+SF,Oulu,6-25
+SF,Pietarsaari,6-25
+SF,Pori,6-25
+SF,Rauma,6-25
+SF,Rautaruukki/Raahe,6-25
+SF,Turku,6-25
+SF,Naantali,6-25
+SW,Gävle,6-25
+SW,Göteborg,6-25
+SW,Grisslehamn,6-25
+SW,Halmstad,6-25
+SW,Helsingborg,6-25
+SW,Kapellskär,6-25
+SW,Karlshamn,6-25
+SW,Karlskrona,6-25
+SW,Köping,6-25
+SW,Luleå,6-25
+SW,Malmö,6-25
+SW,Norrköping,6-25
+SW,Oskarshamn,6-25
+SW,Oxelösund,6-25
+SW,Stenungsund,6-25
+SW,Stockholm,6-25
+SW,Nynäshamn,6-25
+SW,Strömstad,6-25
+SW,Sundsvall,6-25
+SW,Trelleborg,6-25
+SW,Umeå,6-25
+SW,Varberg,6-25
+SW,Västerås,6-25
+SW,Visby,6-25
+SW,Ystad,6-25
+UK,Aberdeen,6-25
+UK,Belfast,6-25
+UK,Bristol,6-25
+UK,Cardiff,6-25
+UK,Cromarty Firth,6-25
+UK,Dover/Folkestone,6-25
+UK,Edinburgh,6-25
+UK,Felixstowe,6-25
+UK,Harwich,6-25
+UK,Fishguard,6-25
+UK,Glasgow,6-25
+UK,Glensanda,6-25
+UK,Goole,6-25
+UK,Grimsby/Immingham,6-25
+UK,Heysham,6-25
+UK,Holyhead,6-25
+UK,Hull,6-25
+UK,Ipswich,6-25
+UK,Larne,6-25
+UK,Liverpool,6-25
+UK,Loch Ryan Ports,6-25
+UK,London,6-25
+UK,Londonderry,6-25
+UK,Manchester,6-25
+UK,Medway,6-25
+UK,Milford Haven,6-25
+UK,Orkney,6-25
+UK,Plymouth,6-25
+UK,Poole,6-25
+UK,Port Salford,6-25
+UK,Port Talbot,6-25
+UK,Ramsgate,6-25
+UK,River Hull and Humber,6-25
+UK,Scrabster,6-25
+UK,Shetland Islands,6-25
+UK,Southampton,6-25
+UK,Portsmouth,6-25
+UK,Stornoway,6-25
+UK,Teesport,6-25
+UK,Tyne,6-25
+UK,Ullapool,6-25
+UK,Warrenpoint,6-25

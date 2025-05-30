@@ -1,0 +1,218 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #2c3e50; }
+      .section-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #34495e; }
+      .component { font-family: Arial, sans-serif; font-size: 11px; fill: #2c3e50; }
+      .small-text { font-family: Arial, sans-serif; font-size: 9px; fill: #7f8c8d; }
+      .frontend-box { fill: #e8f4fd; stroke: #3498db; stroke-width: 2; }
+      .backend-box { fill: #f0f8e8; stroke: #27ae60; stroke-width: 2; }
+      .data-box { fill: #fef9e7; stroke: #f39c12; stroke-width: 2; }
+      .decision-box { fill: #fdeaea; stroke: #e74c3c; stroke-width: 2; }
+      .flow-arrow { stroke: #2c3e50; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .data-arrow { stroke: #f39c12; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .decision-arrow { stroke: #e74c3c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="25" text-anchor="middle" class="title">Drone Decision Support System (DSS) - Technical Architecture</text>
+  <text x="600" y="45" text-anchor="middle" class="small-text">European Small Ports Implementation</text>
+  
+  <!-- Frontend Section -->
+  <rect x="50" y="80" width="350" height="280" class="frontend-box" rx="8"/>
+  <text x="60" y="100" class="section-title">🌐 FRONTEND (Flask Web UI)</text>
+  
+  <!-- User Interface -->
+  <rect x="70" y="120" width="150" height="60" fill="#ffffff" stroke="#3498db" stroke-width="1" rx="4"/>
+  <text x="145" y="140" text-anchor="middle" class="component">User Interface</text>
+  <text x="75" y="155" class="small-text">• Port Selection</text>
+  <text x="75" y="167" class="small-text">• Criteria Input</text>
+  
+  <!-- HTML Templates -->
+  <rect x="240" y="120" width="140" height="80" fill="#ffffff" stroke="#3498db" stroke-width="1" rx="4"/>
+  <text x="310" y="140" text-anchor="middle" class="component">HTML Templates</text>
+  <text x="245" y="155" class="small-text">• index.html</text>
+  <text x="245" y="167" class="small-text">• results.html</text>
+  <text x="245" y="179" class="small-text">• Template rendering</text>
+  <text x="245" y="191" class="small-text">• Dynamic content</text>
+  
+  <!-- Flask Routes -->
+  <rect x="70" y="200" width="150" height="60" fill="#ffffff" stroke="#3498db" stroke-width="1" rx="4"/>
+  <text x="145" y="220" text-anchor="middle" class="component">Flask Routes</text>
+  <text x="145" y="235" text-anchor="middle" class="small-text">(views.py)</text>
+  <text x="75" y="250" class="small-text">• Navigation logic</text>
+  
+  <!-- Static Assets -->
+  <rect x="240" y="220" width="140" height="60" fill="#ffffff" stroke="#3498db" stroke-width="1" rx="4"/>
+  <text x="310" y="240" text-anchor="middle" class="component">Static Assets</text>
+  <text x="310" y="255" text-anchor="middle" class="small-text">(static/)</text>
+  <text x="245" y="270" class="small-text">• CSS Styling</text>
+  
+  <!-- User Flow Steps -->
+  <rect x="70" y="300" width="310" height="50" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="4"/>
+  <text x="225" y="320" text-anchor="middle" class="component">User Flow</text>
+  <text x="75" y="335" class="small-text">1. Select Port → 2. Input Criteria → 3. View Results → 4. Refine Selection</text>
+  
+  <!-- Backend Section -->
+  <rect x="450" y="80" width="350" height="380" class="backend-box" rx="8"/>
+  <text x="460" y="100" class="section-title">⚙️ BACKEND (Flask API)</text>
+  
+  <!-- Flask API -->
+  <rect x="470" y="120" width="150" height="60" fill="#ffffff" stroke="#27ae60" stroke-width="1" rx="4"/>
+  <text x="545" y="140" text-anchor="middle" class="component">Flask API</text>
+  <text x="475" y="155" class="small-text">• Request handling</text>
+  <text x="475" y="167" class="small-text">• Response formatting</text>
+  
+  <!-- Configuration -->
+  <rect x="640" y="120" width="140" height="60" fill="#ffffff" stroke="#27ae60" stroke-width="1" rx="4"/>
+  <text x="710" y="140" text-anchor="middle" class="component">Configuration</text>
+  <text x="710" y="155" text-anchor="middle" class="small-text">(config.py)</text>
+  <text x="645" y="170" class="small-text">• Decision logic settings</text>
+  
+  <!-- Utils/Logic -->
+  <rect x="470" y="200" width="150" height="80" class="decision-box" rx="4"/>
+  <text x="545" y="220" text-anchor="middle" class="component">Decision Logic</text>
+  <text x="545" y="235" text-anchor="middle" class="small-text">(utils.py)</text>
+  <text x="475" y="250" class="small-text">• Rule-based filtering</text>
+  <text x="475" y="262" class="small-text">• WSM ranking</text>
+  <text x="475" y="274" class="small-text">• AHP analysis</text>
+  
+  <!-- Models -->
+  <rect x="640" y="200" width="140" height="50" fill="#ffffff" stroke="#27ae60" stroke-width="1" rx="4"/>
+  <text x="710" y="220" text-anchor="middle" class="component">Models</text>
+  <text x="710" y="235" text-anchor="middle" class="small-text">(models/)</text>
+  <text x="645" y="245" class="small-text">• Future expansion</text>
+  
+  <!-- Tests -->
+  <rect x="640" y="270" width="140" height="50" fill="#ffffff" stroke="#27ae60" stroke-width="1" rx="4"/>
+  <text x="710" y="290" text-anchor="middle" class="component">Tests</text>
+  <text x="710" y="305" text-anchor="middle" class="small-text">(tests/)</text>
+  <text x="645" y="315" class="small-text">• Logic verification</text>
+  
+  <!-- Processing Steps -->
+  <rect x="470" y="340" width="310" height="110" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="4"/>
+  <text x="625" y="360" text-anchor="middle" class="component">Backend Processing Flow</text>
+  <text x="475" y="380" class="small-text">1. Receive user request with port &amp; criteria</text>
+  <text x="475" y="395" class="small-text">2. Load drone specifications &amp; port requirements</text>
+  <text x="475" y="410" class="small-text">3. Apply filtering rules (flight radius, payload, etc.)</text>
+  <text x="475" y="425" class="small-text">4. Rank suitable drones using WSM &amp; AHP</text>
+  <text x="475" y="440" class="small-text">5. Return ranked recommendations to frontend</text>
+  
+  <!-- Data Section -->
+  <rect x="850" y="80" width="300" height="280" class="data-box" rx="8"/>
+  <text x="860" y="100" class="section-title">📊 DATA LAYER</text>
+  
+  <!-- Data Folder -->
+  <rect x="870" y="120" width="120" height="40" fill="#ffffff" stroke="#f39c12" stroke-width="1" rx="4"/>
+  <text x="930" y="140" text-anchor="middle" class="component">data/ folder</text>
+  
+  <!-- Drone Dataset -->
+  <rect x="870" y="180" width="120" height="70" fill="#ffffff" stroke="#f39c12" stroke-width="1" rx="4"/>
+  <text x="930" y="200" text-anchor="middle" class="component">Drone Specs</text>
+  <text x="930" y="215" text-anchor="middle" class="small-text">(droneType.csv)</text>
+  <text x="875" y="230" class="small-text">• Flight radius</text>
+  <text x="875" y="242" class="small-text">• Payload capacity</text>
+  
+  <!-- Port Dataset -->
+  <rect x="1010" y="180" width="120" height="70" fill="#ffffff" stroke="#f39c12" stroke-width="1" rx="4"/>
+  <text x="1070" y="200" text-anchor="middle" class="component">Port Requirements</text>
+  <text x="1070" y="215" text-anchor="middle" class="small-text">(dataset.csv)</text>
+  <text x="1015" y="230" class="small-text">• Port specifications</text>
+  <text x="1015" y="242" class="small-text">• Operational needs</text>
+  
+  <!-- Data Characteristics -->
+  <rect x="870" y="270" width="260" height="80" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="4"/>
+  <text x="1000" y="290" text-anchor="middle" class="component">Data Characteristics</text>
+  <text x="875" y="310" class="small-text">• Thermal imaging capability • Weather resistance</text>
+  <text x="875" y="325" class="small-text">• Battery life • Navigation systems</text>
+  <text x="875" y="340" class="small-text">• Communication range • Port infrastructure requirements</text>
+  
+  <!-- Decision Logic Detail -->
+  <rect x="50" y="500" width="500" height="120" class="decision-box" rx="8"/>
+  <text x="60" y="520" class="section-title">🧠 DECISION LOGIC ALGORITHMS</text>
+  
+  <!-- WSM -->
+  <rect x="70" y="540" width="220" height="70" fill="#ffffff" stroke="#e74c3c" stroke-width="1" rx="4"/>
+  <text x="180" y="560" text-anchor="middle" class="component">Weighted Sum Model (WSM)</text>
+  <text x="75" y="575" class="small-text">• Assigns weights to criteria</text>
+  <text x="75" y="587" class="small-text">• Calculates weighted scores</text>
+  <text x="75" y="599" class="small-text">• Provides quantitative ranking</text>
+  
+  <!-- AHP -->
+  <rect x="310" y="540" width="220" height="70" fill="#ffffff" stroke="#e74c3c" stroke-width="1" rx="4"/>
+  <text x="420" y="560" text-anchor="middle" class="component">Analytic Hierarchy Process (AHP)</text>
+  <text x="315" y="575" class="small-text">• Pairwise comparison matrix</text>
+  <text x="315" y="587" class="small-text">• Consistency checking</text>
+  <text x="315" y="599" class="small-text">• Priority vector calculation</text>
+  
+  <!-- System Integration -->
+  <rect x="600" y="500" width="550" height="120" fill="#f8f9fa" stroke="#6c757d" stroke-width="2" rx="8"/>
+  <text x="610" y="520" class="section-title">🔄 SYSTEM INTEGRATION &amp; DATA FLOW</text>
+  
+  <rect x="620" y="540" width="510" height="70" fill="#ffffff" stroke="#6c757d" stroke-width="1" rx="4"/>
+  <text x="875" y="560" text-anchor="middle" class="component">Complete Decision Support Workflow</text>
+  <text x="625" y="575" class="small-text">User Input → Flask Routes → API Processing → Data Retrieval → Algorithm Execution</text>
+  <text x="625" y="587" class="small-text">→ Filtering &amp; Ranking → Result Formatting → Frontend Display → User Review</text>
+  <text x="625" y="599" class="small-text">→ Optional Refinement Loop</text>
+  
+  <!-- System Boundaries -->
+  <rect x="30" y="650" width="1140" height="120" fill="#f1f2f6" stroke="#57606f" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="40" y="670" class="section-title">🏗️ DEPLOYMENT &amp; TECHNICAL SPECIFICATIONS</text>
+  
+  <!-- Deployment Info -->
+  <rect x="50" y="690" width="280" height="70" fill="#ffffff" stroke="#57606f" stroke-width="1" rx="4"/>
+  <text x="190" y="710" text-anchor="middle" class="component">Deployment Environment</text>
+  <text x="55" y="725" class="small-text">• Flask development server</text>
+  <text x="55" y="737" class="small-text">• Python 3.8+ runtime</text>
+  <text x="55" y="749" class="small-text">• CSV file-based data storage</text>
+  
+  <!-- Performance -->
+  <rect x="350" y="690" width="280" height="70" fill="#ffffff" stroke="#57606f" stroke-width="1" rx="4"/>
+  <text x="490" y="710" text-anchor="middle" class="component">Performance Characteristics</text>
+  <text x="355" y="725" class="small-text">• Real-time decision making</text>
+  <text x="355" y="737" class="small-text">• Scalable architecture</text>
+  <text x="355" y="749" class="small-text">• Modular component design</text>
+  
+  <!-- Security -->
+  <rect x="650" y="690" width="280" height="70" fill="#ffffff" stroke="#57606f" stroke-width="1" rx="4"/>
+  <text x="790" y="710" text-anchor="middle" class="component">Security &amp; Reliability</text>
+  <text x="655" y="725" class="small-text">• Input validation</text>
+  <text x="655" y="737" class="small-text">• Error handling</text>
+  <text x="655" y="749" class="small-text">• Unit testing coverage</text>
+  
+  <!-- Future -->
+  <rect x="950" y="690" width="200" height="70" fill="#ffffff" stroke="#57606f" stroke-width="1" rx="4"/>
+  <text x="1050" y="710" text-anchor="middle" class="component">Future Extensions</text>
+  <text x="955" y="725" class="small-text">• Database integration</text>
+  <text x="955" y="737" class="small-text">• Machine learning</text>
+  <text x="955" y="749" class="small-text">• API expansion</text>
+  
+  <!-- Data Flow Arrows -->
+  
+  <!-- User to Backend -->
+  <path d="M 400 180 L 470 180" class="flow-arrow"/>
+  <text x="435" y="175" text-anchor="middle" class="small-text">User Request</text>
+  
+  <!-- Backend to Data -->
+  <path d="M 800 200 L 870 200" class="data-arrow"/>
+  <text x="835" y="195" text-anchor="middle" class="small-text">Data Query</text>
+  
+  <!-- Backend to Decision Logic -->
+  <path d="M 545 280 L 545 340" class="decision-arrow"/>
+  
+  <!-- Backend to Frontend (Response) -->
+  <path d="M 470 220 L 400 220" class="flow-arrow"/>
+  <text x="435" y="235" text-anchor="middle" class="small-text">Results</text>
+  
+  <!-- Data connections -->
+  <path d="M 930 160 L 930 180" class="data-arrow"/>
+  <path d="M 1000 160 L 1070 180" class="data-arrow"/>
+  
+  <!-- Decision logic to main backend -->
+  <path d="M 545 200 L 545 180" class="decision-arrow"/>
+  
+</svg>

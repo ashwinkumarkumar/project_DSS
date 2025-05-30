@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drone Selection Results</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <style>
+        .hidden-attributes {
+            display: none;
+        }
+        .show-more-btn {
+            cursor: pointer;
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function toggleDetails(id) {
+            const elem = document.getElementById(id);
+            if (elem.style.display === "none" || elem.style.display === "") {
+                elem.style.display = "table-row";
+            } else {
+                elem.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Drone Decision Support</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/results">Results</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h2 class="text-center">Drone Selection Results</h2>
+        {% if drones %}
+            <table class="table table-striped table-bordered mt-4">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Drone Name</th>
+                        <th>Category</th>
+                        <th>WSM Score</th>
+                        <th>Price (EUR)</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for drone in drones %}
+                        <tr>
+                            <td>{{ drone['Drone Name'] }}</td>
+                            <td>{{ drone['Category'] }}</td>
+                            <td>{{ drone['WSM Score'] }}</td>
+                            <td>{{ drone['Price (EUR)'] }}</td>
+                            <td><span class="show-more-btn" onclick="toggleDetails('details-{{ loop.index }}')">Show More</span></td>
+                        </tr>
+                        <tr id="details-{{ loop.index }}" class="hidden-attributes">
+                            <td colspan="5">
+                                <ul>
+                                    {% for key, value in drone.items() %}
+                                        {% if key not in ['Drone Name', 'Category', 'WSM Score', 'Price (EUR)'] %}
+                                            <li><strong>{{ key }}:</strong> {{ value }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <div class="alert alert-warning mt-4" role="alert">
+                No drones matched your criteria.
+            </div>
+        {% endif %}
+        <a href="/" class="btn btn-primary mt-3">Back to Selection</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,328 @@
+country_code,port_name,average_wind_speed_m_s,maximum_wind_speed_m_s
+BE,Antwerpen,5.2,12.5
+BE,Gent,5.0,12.0
+BE,Oostende,6.1,13.0
+BE,Zeebrugge,6.3,13.2
+BU,Burgas,4.8,11.5
+BU,Varna,5.1,11.8
+DK,Aalborg,5.5,12.8
+DK,Aarhus,5.7,13.0
+DK,Branden,5.4,12.7
+DK,Ebeltoft,5.6,12.9
+DK,Esbjerg,6.0,13.3
+DK,Fredericia,5.3,12.6
+DK,Frederikshavn,6.2,13.4
+DK,Fur,5.1,12.1
+DK,Gedser,5.0,12.0
+DK,Helsingør,5.4,12.7
+DK,Hirtshals,6.1,13.2
+DK,Kalundborg,5.2,12.4
+DK,København,5.3,12.5
+DK,Køge,5.1,12.3
+DK,Nordby (Fanø),5.0,12.2
+DK,Odense,5.2,12.4
+DK,Rødby,5.1,12.3
+DK,Rønne,5.0,12.2
+DK,Sjællands Odde Ferry Port,5.3,12.5
+DK,Spodsbjerg,5.1,12.3
+DK,Tårs(Nakskov),5.0,12.2
+DK,Vejle,5.2,12.4
+DE,Bensersiel,5.4,12.7
+DE,Brake,5.6,12.9
+DE,Bremen,5.7,13.0
+DE,Bremerhaven,6.0,13.3
+DE,Brunsbüettel,5.5,12.8
+DE,Cuxhaven,6.1,13.2
+DE,Emden,6.0,13.1
+DE,Hamburg,5.8,12.9
+DE,Helgoland,6.3,13.4
+DE,Kiel,6.1,13.2
+DE,Langeoog,6.2,13.3
+DE,Lübeck,5.7,12.9
+DE,Norddeich,6.0,13.1
+DE,Nordenham,5.8,12.9
+DE,Norderney,6.1,13.2
+DE,Puttgarden,5.9,13.0
+DE,Rostock,6.0,13.1
+DE,Sassnitz,6.1,13.2
+DE,Stade-Bützfleth/Brunshausen,5.7,12.9
+DE,Wilhelmshaven,6.2,13.3
+DE,Wismar,5.8,12.9
+EST,Heltermaa,5.3,12.5
+EST,Kuivastu,5.2,12.4
+EST,Pärnu,5.4,12.6
+EST,Paldiski South Harbor,5.3,12.5
+EST,Rohuküla,5.2,12.4
+EST,Sillamäe,5.4,12.6
+EST,Tallinn,5.5,12.7
+EST,Virtsu,5.3,12.5
+IRL,Cork,5.1,12.3
+IRL,Dublin,5.2,12.4
+IRL,Limerick / Shannon,5.0,12.2
+IRL,Rosslare,5.1,12.3
+IRL,Waterford,5.0,12.2
+GR,Athens,4.8,11.8
+GR,Chalkida,4.7,11.7
+GR,Chania,4.9,11.9
+GR,Chios,4.8,11.8
+GR,Elefsina,4.7,11.7
+GR,Igoumenitsa,4.6,11.6
+GR,Iraklion,4.9,11.9
+GR,Kalamata,4.7,11.7
+GR,Katakolo,4.6,11.6
+GR,Kavala,4.7,11.7
+GR,Kerkyra,4.8,11.8
+GR,Kyllini,4.7,11.7
+GR,Lavrio (Sounio),4.8,11.8
+GR,Mykonos,5.0,12.0
+GR,Mytilini,4.9,11.9
+GR,Naxos,4.8,11.8
+GR,Paros,4.9,11.9
+GR,Patras,4.7,11.7
+GR,Rafina,4.8,11.8
+GR,Rodos,4.9,11.9
+GR,Santorini,5.0,12.0
+GR,Skiathos,4.9,11.9
+GR,Syros,4.8,11.8
+GR,Thessaloniki,4.7,11.7
+GR,Volos,4.8,11.8
+ESP,A Coruña,5.1,12.3
+ESP,Algeciras,5.0,12.2
+ESP,Alicante,4.9,12.1
+ESP,Almería,4.8,12.0
+ESP,Arrecife,5.0,12.2
+ESP,Avilés,5.1,12.3
+ESP,Barcelona,5.0,12.2
+ESP,Bilbao,5.1,12.3
+ESP,Cádiz,5.0,12.2
+ESP,Cala Sabina (Formentera),4.9,12.1
+ESP,Carboneras,4.8,12.0
+ESP,Cartagena,4.9,12.1
+ESP,Castellón,5.0,12.2
+ESP,Ceuta,4.8,12.0
+ESP,El Hierro,5.0,12.2
+ESP,Ferrol,5.1,12.3
+ESP,Fuerteventura,5.0,12.2
+ESP,Gijón,5.1,12.3
+ESP,Huelva,5.0,12.2
+ESP,Ibiza,4.9,12.1
+ESP,La Palma,5.0,12.2
+ESP,Las Palmas,5.1,12.3
+ESP,Mahón (Menorca),4.9,12.1
+ESP,Málaga,5.0,12.2
+ESP,Melilla,4.8,12.0
+ESP,Motril,4.9,12.1
+ESP,Palma de Mallorca,5.0,12.2
+ESP,Pasajes,5.1,12.3
+ESP,Sagunto,5.0,12.2
+ESP,San Cibrao,4.9,12.1
+ESP,San Sebastián de la Gomera,5.0,12.2
+ESP,Santander,5.1,12.3
+ESP,Sevilla,5.0,12.2
+ESP,Tarragona,5.0,12.2
+ESP,Tenerife,5.1,12.3
+ESP,Valencia,5.0,12.2
+ESP,Vigo,5.1,12.3
+FR,Ajaccio,5.0,12.2
+FR,Bastia,5.1,12.3
+FR,Bayonne,5.0,12.2
+FR,Bordeaux,5.1,12.3
+FR,Boulogne,5.0,12.2
+FR,Brest,5.1,12.3
+FR,Caen,5.0,12.2
+FR,Calais,5.1,12.3
+FR,Cayenne,5.0,12.2
+FR,Cherbourg,5.1,12.3
+FR,Dieppe,5.0,12.2
+FR,Dunkerque,5.1,12.3
+FR,Fort de France,5.0,12.2
+FR,Guadeloupe,5.1,12.3
+FR,La Rochelle,5.0,12.2
+FR,Le Havre,5.1,12.3
+FR,Lorient,5.0,12.2
+FR,Marseille,5.1,12.3
+FR,Fos-sur-Mer,5.0,12.2
+FR,Nantes Saint-Nazaire,5.1,12.3
+FR,Nice,5.0,12.2
+FR,Port Réunion,5.1,12.3
+FR,Roscoff,5.0,12.2
+FR,Rouen,5.1,12.3
+FR,Sète,5.0,12.2
+FR,Saint-Malo,5.1,12.3
+FR,Toulon,5.0,12.2
+CRO,Dubrovnik,4.9,11.9
+CRO,Ploče,4.8,11.8
+CRO,Pula,4.9,11.9
+CRO,Rijeka,5.0,12.0
+CRO,Šibenik,4.8,11.8
+CRO,Split,4.9,11.9
+CRO,Zadar,5.0,12.0
+IT,Ancona,5.0,12.2
+IT,Augusta,5.1,12.3
+IT,Bari,5.0,12.2
+IT,Brindisi,5.1,12.3
+IT,Cagliari,5.0,12.2
+IT,Carloforte,5.1,12.3
+IT,Chioggia,5.0,12.2
+IT,Civitavecchia,5.1,12.3
+IT,Fiumicino,5.0,12.2
+IT,Gaeta,5.1,12.3
+IT,Gela,5.0,12.2
+IT,Genova,5.1,12.3
+IT,Gioia Tauro,5.0,12.2
+IT,Golfo Aranci,5.1,12.3
+IT,La Maddalena,5.0,12.2
+IT,La Spezia,5.1,12.3
+IT,Livorno,5.0,12.2
+IT,Marina di Carrara,5.1,12.3
+IT,Messina,5.0,12.2
+IT,Milazzo,5.1,12.3
+IT,Monfalcone,5.0,12.2
+IT,Napoli,5.1,12.3
+IT,Olbia,5.0,12.2
+IT,Palau,5.1,12.3
+IT,Palermo,5.0,12.2
+IT,Piombino,5.1,12.3
+IT,Porto Levante,5.0,12.2
+IT,Porto Torres,5.1,12.3
+IT,Portoferraio,5.0,12.2
+IT,Ravenna,5.1,12.3
+IT,Reggio Calabria,5.0,12.2
+IT,Salerno,5.1,12.3
+IT,Savona - Vado,5.0,12.2
+IT,Siracusa,5.1,12.3
+IT,Taranto,5.0,12.2
+IT,Trapani,5.1,12.3
+IT,Trieste,5.0,12.2
+IT,Venezia,5.1,12.3
+CY,Larnaka,4.9,11.9
+CY,Lemesos,4.8,11.8
+LAT,Liepāja,4.9,11.9
+LAT,Rīga,5.0,12.0
+LAT,Ventspils,4.8,11.8
+LIT,Klaipėda,4.9,11.9
+MT,Cirkewwa,5.0,12.0
+MT,Marsaxlokk,4.9,11.9
+MT,Mgarr,4.8,11.8
+MT,Valletta,4.9,11.9
+NL,Amsterdam,5.1,12.3
+NL,Beverwijk,5.0,12.2
+NL,Delfzijl/Eemshaven,5.1,12.3
+NL,Den Helder,5.0,12.2
+NL,Dordrecht,5.1,12.3
+NL,Eemshaven,5.0,12.2
+NL,Harlingen,5.1,12.3
+NL,Moerdijk,5.0,12.2
+NL,Rotterdam,5.1,12.3
+NL,Terneuzen,5.0,12.2
+NL,Vlissingen,5.1,12.3
+NL,Velsen/IJmuiden,5.0,12.2
+NL,Vlaardingen,5.1,12.3
+PL,Gdańsk,5.0,12.2
+PL,Gdynia,5.1,12.3
+PL,Police,5.0,12.2
+PL,Szczecin,5.1,12.3
+PL,Świnoujście,5.0,12.2
+PT,Aveiro,5.1,12.3
+PT,Caniçal,5.0,12.2
+PT,Funchal,5.1,12.3
+PT,Horta,5.0,12.2
+PT,Lajes das Flores,5.1,12.3
+PT,Lisboa,5.0,12.2
+PT,Ponta Delgada,5.1,12.3
+PT,Portimão,5.0,12.2
+PT,Porto,5.1,12.3
+PT,Porto Santo,5.0,12.2
+PT,Praia da Vitória,5.1,12.3
+PT,Setúbal,5.0,12.2
+PT,Sines,5.1,12.3
+RO,Brăila,5.0,12.2
+RO,Constanţa,5.1,12.3
+RO,Galaţi,5.0,12.2
+RO,Sulina,5.1,12.3
+RO,Tulcea,5.0,12.2
+SLO,Koper,5.1,12.3
+SF,Eckerö,5.0,12.2
+SF,Hanko,5.1,12.3
+SF,Helsinki,5.0,12.2
+SF,Kaskinen,5.1,12.3
+SF,Kemi,5.0,12.2
+SF,Kilpilahti (Sköldvik),5.1,12.3
+SF,Kokkola,5.0,12.2
+SF,Hamina,5.1,12.3
+SF,Kotka,5.0,12.2
+SF,Maarianhamina,5.1,12.3
+SF,Oulu,5.0,12.2
+SF,Pietarsaari,5.1,12.3
+SF,Pori,5.0,12.2
+SF,Rauma,5.1,12.3
+SF,Rautaruukki/Raahe,5.0,12.2
+SF,Turku,5.1,12.3
+SF,Naantali,5.0,12.2
+SW,Gävle,5.1,12.3
+SW,Göteborg,5.0,12.2
+SW,Grisslehamn,5.1,12.3
+SW,Halmstad,5.0,12.2
+SW,Helsingborg,5.1,12.3
+SW,Kapellskär,5.0,12.2
+SW,Karlshamn,5.1,12.3
+SW,Karlskrona,5.0,12.2
+SW,Köping,5.1,12.3
+SW,Luleå,5.0,12.2
+SW,Malmö,5.1,12.3
+SW,Norrköping,5.0,12.2
+SW,Oskarshamn,5.1,12.3
+SW,Oxelösund,5.0,12.2
+SW,Stenungsund,5.1,12.3
+SW,Stockholm,5.0,12.2
+SW,Nynäshamn,5.1,12.3
+SW,Strömstad,5.0,12.2
+SW,Sundsvall,5.1,12.3
+SW,Trelleborg,5.0,12.2
+SW,Umeå,5.1,12.3
+SW,Varberg,5.0,12.2
+SW,Västerås,5.1,12.3
+SW,Visby,5.0,12.2
+SW,Ystad,5.1,12.3
+UK,Aberdeen,5.0,12.2
+UK,Belfast,5.1,12.3
+UK,Bristol,5.0,12.2
+UK,Cardiff,5.1,12.3
+UK,Cromarty Firth,5.0,12.2
+UK,Dover/Folkestone,5.1,12.3
+UK,Edinburgh,5.0,12.2
+UK,Felixstowe,5.1,12.3
+UK,Harwich,5.0,12.2
+UK,Fishguard,5.1,12.3
+UK,Glasgow,5.0,12.2
+UK,Glensanda,5.1,12.3
+UK,Goole,5.0,12.2
+UK,Grimsby/Immingham,5.1,12.3
+UK,Heysham,5.0,12.2
+UK,Holyhead,5.1,12.3
+UK,Hull,5.0,12.2
+UK,Ipswich,5.1,12.3
+UK,Larne,5.0,12.2
+UK,Liverpool,5.1,12.3
+UK,Loch Ryan Ports,5.0,12.2
+UK,London,5.1,12.3
+UK,Londonderry,5.0,12.2
+UK,Manchester,5.1,12.3
+UK,Medway,5.0,12.2
+UK,Milford Haven,5.1,12.3
+UK,Orkney,5.0,12.2
+UK,Plymouth,5.1,12.3
+UK,Poole,5.0,12.2
+UK,Port Salford,5.1,12.3
+UK,Port Talbot,5.0,12.2
+UK,Ramsgate,5.1,12.3
+UK,River Hull and Humber,5.0,12.2
+UK,Scrabster,5.1,12.3
+UK,Shetland Islands,5.0,12.2
+UK,Southampton,5.1,12.3
+UK,Portsmouth,5.0,12.2
+UK,Stornoway,5.1,12.3
+UK,Teesport,5.0,12.2
+UK,Tyne,5.1,12.3
+UK,Ullapool,5.0,12.2
+UK,Warrenpoint,5.1,12.3
