@@ -1,0 +1,103 @@
+/* Custom styles for Drone Decision Support System */
+
+/* Body and container */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Form cards */
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Form inputs */
+.form-control, .form-check-input {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Range inputs */
+.form-range {
+    margin-bottom: 1rem;
+}
+
+/* Submit button */
+.btn-success {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #0056b3;
+}
+
+/* Results table */
+.table {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #e9f2ff;
+}
+
+.show-more-btn {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.show-more-btn:hover {
+    color: #0056b3;
+}
+
+/* Hidden details row */
+.hidden-attributes {
+    background-color: #f1f5fb;
+    font-size: 0.9rem;
+}
+
+/* Alert */
+.alert-warning {
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .btn-success {
+        font-size: 1rem;
+    }
+}

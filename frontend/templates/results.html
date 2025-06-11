@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Drone Selection Results</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-    <style>
-        .hidden-attributes {
-            display: none;
-        }
-        .show-more-btn {
-            cursor: pointer;
-            color: #0d6efd;
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
     <script>
         function toggleDetails(id) {
             const elem = document.getElementById(id);
