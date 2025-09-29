@@ -20,6 +20,11 @@ This project provides a comprehensive decision support system for selecting dron
 - Use the web interface to select drone preferences and port information.
 - The backend processes the input and recommends suitable drones based on environmental and operational criteria.
 
+## Screenshots
+![Form Interface](Screenshot%202025-09-29%20154425.png)
+![Drone Selection Results](Screenshot%202025-09-29%20154441.png)
+![Recommended Drones](Screenshot%202025-09-29%20154500.png)
+
 ## Notes
 - Keep the data files in `backend/data/` updated for accurate drone and port information.
 - Update documentation in `docs/` as the project evolves.

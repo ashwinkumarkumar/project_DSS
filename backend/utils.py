@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import warnings
+import os
 warnings.filterwarnings('ignore')
 
 class DroneSelectionSystem:
@@ -81,9 +82,11 @@ class DroneSelectionSystem:
         Load drone data from CSV and normalize columns with adaptive missing value handling.
         """
         try:
-            df = pd.read_csv(filepath)
+            df = pd.read_csv(filepath, encoding='utf-8-sig')
         except FileNotFoundError:
             raise FileNotFoundError(f"Drone data file not found: {filepath}")
+        except Exception as e:
+            raise Exception(f"Error reading CSV file {filepath}: {str(e)}")
         
         # Define numeric columns for normalization
         numeric_cols = [
@@ -462,18 +465,18 @@ class DroneSelectionSystem:
         try:
             # Load and normalize drone data
             if drone_data_path is None:
-                drone_data_path = r"D:/project_DSS/backend/data/droneType002.csv"
+                drone_data_path = r"D:/PROJECTS/project_DSS/backend/data/droneType002.csv"
             df = self.load_and_normalize_drone_data(drone_data_path)
-            
+
             if df.empty:
                 return pd.DataFrame(), "No drone data available"
-            
+
             original_count = len(df)
-            
+
             # Load port data
             port_data_df = None
             if port_data_path is None:
-                port_data_path = r"D:/project_DSS/backend/data/merged_ports_data.csv"
+                port_data_path = r"D:/PROJECTS/project_DSS/backend/data/merged_ports_data.csv"
             try:
                 port_data_df = pd.read_csv(port_data_path)
             except FileNotFoundError:

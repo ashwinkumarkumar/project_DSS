@@ -1,6 +1,7 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_file
 from utils import DroneSelectionSystem
 import os
+import io
 
 template_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'frontend', 'templates'))
 app = Flask(__name__, template_folder=template_dir)
@@ -45,6 +46,30 @@ def match_drones():
 
     # Send matched drones and summary to frontend
     return render_template("results.html", drones=drones, summary=summary)
+
+@app.route("/export/csv")
+def export_csv():
+    """Export current results as CSV."""
+    # For simplicity, export all drones without filters
+    drone_system = DroneSelectionSystem()
+    results_df, _ = drone_system.select_drones(
+        port_name=None,
+        selected_purposes=[],
+        slider_values={},
+        budget=float('inf'),
+        max_maintenance_cost=float('inf')
+    )
+    output = io.StringIO()
+    results_df.to_csv(output, index=False)
+    output.seek(0)
+    return send_file(io.BytesIO(output.getvalue().encode()), mimetype='text/csv',
+                     as_attachment=True, download_name='drones.csv')
+
+@app.route("/export/pdf")
+def export_pdf():
+    """Export current results as PDF."""
+    # PDF export implementation placeholder
+    return "PDF export not implemented yet", 501
 
 if __name__ == "__main__":
     app.run(debug=True)
